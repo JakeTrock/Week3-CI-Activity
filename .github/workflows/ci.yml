@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Install OS dependencies
-        run: sudo apt-get install -y <your-os-dependencies>
-
       - name: Install npm dependencies
         run: npm install
 
